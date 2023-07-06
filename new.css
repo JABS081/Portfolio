@@ -1,0 +1,456 @@
+.main{
+    margin: 0%;
+    padding: 0%;   
+}
+
+.top-container{
+    background-image: url(bg-hero-desktop.png) ;
+    background-color: hsl(193, 100%, 96%);
+    border-style: solid;
+    border-color: hsl(193, 100%, 96%);
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top-bar{
+    margin-top: 5px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header-top{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#info{
+    text-align: center;
+}
+
+#mockups{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+#Try{
+    border: none;
+   border-radius: 30px;
+   width: 100px;
+   height: 40px;
+   background-color: white;
+   box-shadow: 0px 0px 2px 0px grey;
+   font-size: large;
+   cursor: pointer;
+}
+
+#Get{
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    box-shadow: 0px 0px 2px 0px grey;  
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+#section-1{
+    
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 1px 5px 0px grey;
+    margin-top: 10%;
+}
+#section-2{
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 1px 5px 0px grey;
+    margin-top: 10%;
+}
+#section-3{
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 1px 5px 0px grey;
+    margin-top: 10%;
+}
+
+#sub-1, #sub-2, #sub-3{
+    text-align: center;
+}
+
+#section-4{
+    position: absolute;
+    box-shadow: 0px 1px 5px 0px grey;
+    margin-top: 35%;
+    height: 100px;
+    margin-left: 20%;
+    text-align: center;
+    margin-left: 10%;
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#pick{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    box-shadow: 0px 1px 2px 0px grey;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+#base{
+    margin-top: 50%;
+    background-color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#logo{
+    filter: brightness(0) invert(1);
+    margin-left: 7%;
+    margin-top: 20%;
+}
+
+
+
+.sub-base{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#address, #about, #links{    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+#address{
+    width: 20%;
+}
+
+
+
+#icon{    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+footer{
+    align-self: center;
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#address li{
+    
+    width: 200px;
+}
+
+.fa-instagram-square, .fa-twitter-square, .fa-facebook{
+    border-style: solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;    
+    border-color: white;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.fab:hover{
+    color: hotpink;
+    font-size: larger;
+    border-color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: rgb(102, 102, 199);
+    text-decoration:underline;
+    
+}
+
+#pick:hover{
+    color: white;
+    background-color: darkcyan;
+}
+
+#Try:hover{
+    color: white;
+    background-color: grey;
+}
+
+
+#Get:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+
+
+@media (min-width:768px){
+    #header-top{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }   
+
+    #info{
+        text-align: start;
+        padding-left: 20px; 
+    }
+
+    #Get{
+        width: 55%;
+    }
+
+    #top-bar{
+        margin-left: 10px;
+    }
+
+    #mockups{
+        width: 400px;
+        height: 300px;
+    }
+
+    #section-4{
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    #section-1, #section-3{
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    #section-2{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    #sub-2{
+        width: 40%;
+        font-size: 25px;
+        height: 400px;
+        text-align: start;
+    }
+    #sub-1, #sub-3{
+        font-size: 25px;
+        width: 40%;
+        height: 400px;
+        text-align: start;
+    }
+
+    #base{
+        margin-top: 25%;
+    }
+
+    .sub-base{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        
+    }
+
+    #address{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icon{
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    footer{
+        display: flex;
+        justify-content:flex-end;
+    }
+
+
+}
+
+@media (min-width:1024px){
+    #mockups{
+        width:1200px ;
+        height: 500px ;
+    }
+
+    #header-top{
+        margin-left: 0%;
+        font-size: 20px;
+    }
+
+    #top-bar{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    #section-4{
+        padding-bottom: 0%;
+        padding-top: 10px;
+        width: 50%;
+        height: 15%;
+    }
+
+    .sub-base{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-around;       
+    }
+
+    #address{
+        gap: 30px;
+    }
+}
+
+@media (min-width:1440px){
+    #header-top{
+        justify-content:space-between;
+        gap: 50px;
+    }
+
+    #mockups{
+        width: 700px;
+    }
+
+    #info p{
+        margin-right: 25%;
+       font-size: 20px;  
+    }
+
+    #info h1{
+        margin-right: 20%;
+        margin-top: 15%;
+    }
+
+    #info{
+        padding: 0%;
+        width: 50%; 
+    }
+
+    .top-container{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+
+    #Try{
+        width: 100%;
+    }
+
+    #Get{
+        width:30%;
+        font-size: 15px;
+    }
+
+    #section-1, #section-3{
+        display: flex;
+        gap: 10%;
+        padding-left: 10%;
+        padding-right: 5%;
+        margin-top: 5%;
+    }
+
+    #sub-1, #sub-3, #sub-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-2{
+        display: flex;
+        gap: 10%;
+        padding-left: 10%;
+        padding-right: 2%;
+        margin-top: 5%;
+    }
+
+    #section-4{
+        height: 20%;
+        font-size: 30px;
+        padding-bottom: 2%;
+    }
+
+    #logo{
+        margin-top: 10%;
+    }
+
+    #pick{
+        width: 30%;
+    }
+     #address li{
+         width: 400px;
+     }
+   
+}
